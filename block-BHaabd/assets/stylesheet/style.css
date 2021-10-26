@@ -57,11 +57,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     background-color: gainsboro;
+    font-family: 'Montserrat', sans-serif;
 }
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 32px;
+    background-color: white;
  }
  .clearfix::before, .clearfix::after {
     content: "";
@@ -76,6 +78,7 @@ header {
     font-size: 32px;
     text-align: center;
     margin: 10px 0;
+    font-family: 'Noto Serif', serif;
 }
 
 /* main */
@@ -83,14 +86,14 @@ header {
 .section {
     max-width: 900px;
     margin: 0 auto;
-    background-color: white;
 }
 img {
-    width: 300px;
+    width: 100%;
     object-fit: cover;
 }
 h2 {
-    font-size: 24px;
+    font-size: 26px;
+    font-family: 'Noto Serif', serif;
 }
 .col {
     float: left;
@@ -106,13 +109,16 @@ h2 {
 }
 .col1 {
     width: 20%;
+    font-size: 18px;
 }
 .col2 {
     width: 50%;
 }
-.col3 {
-    width: 20%;
-}
 .text {
     margin: 0 40px;
+}
+.col3 {
+    width: 20%;
+    font-size: 16px;
+    font-family: 'Noto Serif', serif;
 }
