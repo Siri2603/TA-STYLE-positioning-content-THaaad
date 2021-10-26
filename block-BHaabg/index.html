@@ -1,15 +1,65 @@
-<!-- ### Exercise
-
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the logo to the left and all the navigation to the right.
-
-3. The header must be fixed at the top of the page.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container clearfix"> 
+            <a class="brand" href="#">
+            <img src="assets/media/download.jpeg" alt="logo">
+        </a>
+                 <nav class="nav">
+                     <a href="Home">Home</a>
+                     <a href="About">About</a>   
+                     <a href="Contact">Contact</a>   
+                     <a href="Career">Career</a>                
+                 </nav>
+                </div>    
+    </header>
+    <main>
+        <article class="article">
+            <div class="container clearfix">
+                      <div class="col">
+                    <h1 class="article-heading">Sunrise</h1>
+                    <p class="article-text"> 
+                        Sunrise (or sunup) is the moment when the upper rim of the Sun appears on the horizon in the morning. The term can also refer to the entire process of the solar disk crossing the horizon and its accompanying atmospheric effects. Although the Sun appears to "rise" from the horizon, it is actually the Earth's motion that causes the Sun to appear. The illusion of a moving Sun results from Earth observers being in a rotating reference frame; this apparent motion is so convincing that many cultures had mythologies, religions built around the geocentric model, which prevailed until astronomer Nicolaus Copernicus formulated his heliocentric model in 16th century.
+                    </p>
+                    </div>
+                    <div class="col">
+                        <img class="article-img" src="assets/media/66084423.cms" alt="Sinrise">
+                  </div>
+                </div>
+</article>
+<section class="container clearfix">
+    <div class="row-col">
+        <img src="assets/media/one.jpeg" alt="Sunrise">
+    </div>
+    <div class="row-col">
+        <img src="assets/media/two.jpeg" alt="Sunrise">
+    </div>
+    <div class="row-col">
+        <img src="assets/media/three.jpeg" alt="Sunrise">
+    </div>
+</section>
+<section class="container clearfix">
+    <div class="row-col">
+        <img src="assets/media/four.jpeg" alt="Sunrise">
+    </div>
+    <div class="row-col">
+        <img src="assets/media/five.jpeg" alt="Sunrise">
+    </div>
+    <div class="row-col">
+        <img src="assets/media/six.jpeg" alt="Sunrise">
+    </div>
+</section>
+    </main>
+ <footer>
+        <button> <a href="#top">Scroll Up</a></button>        
+    </footer>
+</body>
+</html>
