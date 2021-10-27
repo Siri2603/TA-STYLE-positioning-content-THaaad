@@ -56,6 +56,7 @@ table {
 body {
   font-size: 16px;
   line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
 }
 .container {
   max-width: 1200px;
@@ -73,6 +74,8 @@ body {
   background-color: #222946;
   height: 92px;
   line-height: 92px;
+  position: fixed;
+  width: 100%;
 }
 .brand {
     float: left;
@@ -96,15 +99,21 @@ body {
   .article {
     font-size: 0;
     padding: 60px 0;
+    background-color: aliceblue;
+    padding-top: 152px;
   }
   .article-img {
     width: 100%;
+    border: 4px solid goldenrod;
+    border-radius: 8px;
+    
   }
   .col {
-    width: 47%;
-    display: inline-block;
-    font-size: 20px;
-    margin: 1.5px;
+    float: left;
+    width: 50%;
+  }
+  .article-col-left {
+    padding-right: 60px;
   }
   .article-heading {
     font-size: 36px;
@@ -122,20 +131,40 @@ body {
   margin: 1.5%;
     object-fit: cover;
   }
+  img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 6px;
+  }
   /* Footer */
 
-  footer {
+  .footer {
     background-color: #222946;
-    padding: 40px 0;
+    padding: 32px 0;
+    text-align: center;
+    margin-top: 20px;
     
   }
-  button {
-    float: right;
-    margin: 10px 30px;
-    border-radius: 5px;
-    background-color: green;
+  .footer a {
+    font-size: 20px;
     color: #ffffff;
-    font-size: 18px;
     text-decoration: none;
-    text-transform: uppercase;
+    margin: 32px;
+}
+  .top {
+      display: inline-block;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background-color: goldenrod;
+      text-decoration: none;
+      position: fixed;
+      right: 32px;
+      bottom: 32px;
+      text-align: center;
+      line-height: 56px;
+      font-size: 20px;
+      color: #ffffff;
+      text-transform: uppercase;
   }
+  
